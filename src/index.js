@@ -20,5 +20,10 @@ app.get('/cv', (req, res) => {
 });
 
 app.get('/cv_eng', (req, res) => {
-  res.sendFile(__dirname + '/files/cv.pdf');
+  res.sendFile(__dirname + '/files/cv_ENG.pdf');
 });
+
+//   res.download(
+//     __dirname + '/files/cv.pdf',
+//     'CV - Junior Frontend - Judit_Aldeguer_Vicens.pdf'
+//   );
